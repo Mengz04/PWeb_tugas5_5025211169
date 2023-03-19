@@ -1,0 +1,46 @@
+@font-face {
+    font-family: BiotifSB;
+    src: url(./src/Biotif-SemiBold.ttf);
+}
+@font-face {
+    font-family: BiotifLit;
+    src: url(./src/Biotif-Light.ttf);
+}
+@font-face {
+    font-family: GothamBL;
+    src: url(./src/Gotham-Black.otf);
+}
+body{
+    background-image: url(./src/bg.png);
+}
+.cust-logo{
+    width: 200px;
+    height: 100%;
+}
+.cust-icon{
+    font-size: 20px;
+    transform: translateY(-5px);
+}
+.cust-img{
+    width: 500px;
+    height: auto;
+}
+.carousel-inner{
+    position:relative;
+    top:50%;
+    transform: translateY(50px);
+}
+.carousel-caption{
+    transform: translateY(45px);
+}
+.carousel-caption h5{
+    font-family: BiotifLit;
+    letter-spacing: 2px;
+}
+.nav-item-text{
+    font-family: BiotifSB;
+}
+.wrapper h1{
+    font-family: GothamBL;
+    font-size: 32px;
+}
